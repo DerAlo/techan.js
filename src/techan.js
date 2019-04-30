@@ -1,6 +1,6 @@
 'use strict';
 
-var _d3;
+var _d3 = require('d3');
 
 // If running in browser (window !undefined), assume d3 available
 if('undefined' != typeof window) _d3 = window.d3;
